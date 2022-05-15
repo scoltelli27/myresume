@@ -1,0 +1,122 @@
+/* General site */
+* {
+    box-sizing: border-box;
+    font-family: 'Macondo', cursive;
+}
+body, html {
+    margin: 0;
+}
+
+p {
+    padding: 5px 0;
+}
+
+/* Introduction section */
+.introduction {
+    text-align: center;
+    vertical-align: middle;
+    background-image: url("/images/background3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px 0 200px 0;
+    height: 110vh;
+    color: rgba(242, 233, 253, 0.8);
+}
+
+h1 {
+    font-size: 3em !important;
+}
+
+a {
+    font-size: 1.2em !important;
+    
+}
+
+.btn {
+    margin: 10px;
+    color: rgba(242, 233, 253, 0.8) !important;
+    width: 200px;
+    height: 40px;
+}
+
+/* About me section */
+
+.about-me {
+    background:  rgb(253, 253, 251) ;
+    text-align: left;
+    vertical-align: middle;
+    padding: 50px 100px;
+}
+
+#about > img {
+    height: 100vh;
+    width: 80vh;
+    
+}
+
+.about-me-text {
+    font-size: 1.3em;
+}
+
+/* Academic background section */
+
+.academic {
+    padding: 60px 100px;
+    background-color: rgba(157, 148, 228, 0.87);
+}
+
+h3 {
+    font-size: 3em !important;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    
+}
+
+.card {
+    margin: 50px 50px;
+}
+
+
+/* Work experience section */
+
+.work-item {
+    background:  rgb(253, 253, 251) ;
+    text-align: center;
+    vertical-align: middle;
+    padding: 80px;
+    margin-right: auto;
+    
+}
+
+
+.work-item > img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%
+}
+
+/* Contact me section */
+
+footer {
+    background-color: rgba(157, 148, 228, 0.87);
+    padding: 0px 250px;
+    height: 80px;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    gap: 60px;
+    padding: 25px;
+}
+
+.nav-link:hover {
+    background-color: rgba(206, 201, 243, 0.87);
+}
+
+
+
