@@ -15,11 +15,11 @@ p {
 .introduction {
     text-align: center;
     vertical-align: middle;
-    background-image: url("/images/background3.jpg");
+    background-image: url("/images/background4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 250px 0 200px 0;
-    height: 110vh;
+    height: 100vh;
     color: rgba(242, 233, 253, 0.8);
 }
 
@@ -50,7 +50,7 @@ a {
 
 #about > img {
     height: 87vh;
-    width: 83vh !important;
+    width: 80vh !important;
     
 }
 
