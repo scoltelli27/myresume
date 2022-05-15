@@ -98,6 +98,18 @@ h4 {
 
 .work-item > p {
     font-size: 1.1rem;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.work-item-1 {
+    padding-top: 60px;
+}
+
+#holtersimg {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 9px;
 }
 
 .work-item > img {
