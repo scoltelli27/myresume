@@ -1,7 +1,7 @@
 /* General site */
 * {
     box-sizing: border-box;
-    font-family: 'Macondo', cursive;
+    font-family: 'Koulen', cursive;
 }
 body, html {
     margin: 0;
@@ -15,12 +15,9 @@ p {
 .introduction {
     text-align: center;
     vertical-align: middle;
-    background-image: url("/images/background4.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, #dfa579 60%, #FFF 95%);
     padding: 250px 0 200px 0;
     height: 100vh;
-    color: rgba(242, 233, 253, 0.8);
 }
 
 h1 {
@@ -34,7 +31,6 @@ a {
 
 .btn {
     margin: 10px;
-    color: rgba(242, 233, 253, 0.8) !important;
     width: 200px;
     height: 40px;
 }
@@ -42,27 +38,33 @@ a {
 /* About me section */
 
 .about-me {
-    background:  rgb(253, 253, 251) ;
+    background:  rgb(253, 253, 251);
     text-align: left;
     vertical-align: middle;
     padding: 50px 100px;
+    margin-left: 20px !important;
 }
 
 #about > img {
-    height: 87vh;
-    width: 80vh !important;
-    
+    height: 90vh;
+    width: 70vh !important;
+    margin-left: 70px;
 }
 
 .about-me-text {
     font-size: 1.3em;
 }
 
+h2, p {
+    font-family: 'Playfair Display', serif;
+}
+
+
 /* Academic background section */
 
 .academic {
     padding: 60px 100px;
-    background-color: rgba(157, 148, 228, 0.87);
+    background-image: linear-gradient(180deg, #dfa579 60%, #FFF 95%);
 }
 
 h3 {
@@ -78,6 +80,8 @@ h4 {
 
 .card {
     margin: 50px 50px;
+    border-color: black !important;
+    border-width: 3px !important;
 }
 
 
@@ -92,17 +96,21 @@ h4 {
     
 }
 
+.work-item > p {
+    font-size: 1.1rem;
+}
 
 .work-item > img {
     width: 170px;
     height: 170px;
-    border-radius: 50%
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 /* Contact me section */
 
 footer {
-    background-color: rgba(157, 148, 228, 0.87);
+    background-color:  #dfa579;
     padding: 0px 250px;
     height: 80px;
 }
