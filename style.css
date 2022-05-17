@@ -29,6 +29,10 @@ a {
     
 }
 
+.row {
+    margin: 0px !important;
+}
+
 .btn {
     margin: 10px;
     width: 200px;
@@ -84,10 +88,6 @@ h4 {
 
 
 /* Work experience section */
-#mywork {
-    
-}
-
 .work-item {
     background:  rgb(253, 253, 251) ;
     text-align: center;
@@ -101,12 +101,6 @@ h4 {
     padding-left: 15px;
     padding-right: 5px;
 }
-
-.work-item-1 {
-    
-}
-
-
 
 .work-item > img {
     max-width: 170px;
