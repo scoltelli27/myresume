@@ -106,11 +106,11 @@ h4 {
     padding-top: 60px;
 }
 
-#holtersimg {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 9px;
+.work-item-2 {
+    padding-bottom: 170px;
 }
+
+
 
 .work-item > img {
     width: 170px;
@@ -122,8 +122,12 @@ h4 {
 /* Contact me section */
 
 footer {
+    text-align: center;
     background-color:  #dfa579;
-    padding: 0px 280px;
+	position: relative;
+    display: block;
+    width: 100%;
+    padding: 10px 25px 0px 25px;
 }
 
 .navbar-brand {
